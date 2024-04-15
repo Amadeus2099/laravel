@@ -103,8 +103,8 @@
     }
 
     .container-buttons a {
-      width: 70px;
-      height: 70px;
+      width: 75px;
+      height: 75px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -114,7 +114,7 @@
       background-color: #000;
       text-decoration: none;
       overflow: hidden;
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
       margin-right: 20px;
     }
@@ -182,20 +182,17 @@
     <div class="img">
         <img src="{{ asset('images/logo.png') }}" alt="logo">
         <img src="{{ asset('images/uaslp.png') }}" alt="logo uaslp">
-    </div>
-    <div class="container-buttons">
+        <div class="container-buttons">
     <a href="{{ route('infraestructura.form') }}" class="one" target="_self">Infraestructura</a>
-      <a href="#" class="two">Entorno</a>
-      <a href="#" class="three">Transporte</a>
-      <a href="#" class="four">Button 4</a>
-      <a href="#" class="five">Button 5</a>
-      <a href="#" class="six">Button 6</a>
-      <a href="#" class="seven">Button 7</a>
-      <a href="#" class="eight">Button 8</a>
-
-  </div>
-
-
+    <a href="#" class="two">Entorno</a>
+    <a href="#" class="three">Transporte</a>
+    <a href="#" class="four">Energía y cambio climático</a>
+    <a href="#" class="five">Consumo responsable</a>
+    <a href="#" class="six">Residuos</a>
+    <a href="#" class="seven">Agua</a>
+    <a href="#" class="eight">Educación e investigación</a>
+     </div>
+    </div>
 </head>
 <body>
     @isset($success)
